@@ -1,0 +1,96 @@
+#Blog {
+    min-height: 100vh;
+  .BlogArea {
+    .TitleBlogOne {
+        color: #EA1F24;
+        font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .TitleTwo {
+        font-size: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .CardsAreasBlog {
+        margin-top: 150px;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .BoxBlog {
+       
+       
+        .ImgBlog {
+            
+            text-align: center;
+          width: 80%;
+          img {
+            width: 80%;
+          }
+        }
+        .TextBlog {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .PBlog {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 20px;
+            // width: 300px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px){
+    #Blog {
+        min-height: 100vh;
+      .BlogArea {
+        .TitleBlogOne {
+            color: #EA1F24;
+            font-size: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .TitleTwo {
+            font-size: 36px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        .CardsAreasBlog {
+            margin-top: 100px;
+          flex-wrap: wrap;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .BoxBlog {
+           
+           
+            .ImgBlog {
+                
+                text-align: center;
+              width: 80%;
+              img {
+                width: 80%;
+              }
+            }
+            .TextBlog {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .PBlog {
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 20px;
+                // width: 300px;
+            }
+          }
+        }
+      }
+    }
+}

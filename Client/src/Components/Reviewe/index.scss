@@ -1,0 +1,31 @@
+#Perview{
+    .TitlePerOne{
+font-size: 30px;
+color: #EA1F24;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+.TitlePerTwo{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PreviewArea{
+    min-height: 40vh;
+    .ImgPer{
+        text-align: center;
+        img{
+            border-radius: 50%;
+            width: 150px;
+        }
+    }
+    .TextPer{
+       
+        font-size: 20px;
+      
+        width: 610px;
+    }
+}
+}

@@ -1,0 +1,69 @@
+
+.CardinArea{
+
+
+.CardArea {
+  width: 80%;
+  margin: auto;
+  .CardImg {
+    // width: 20%;
+    img {
+   width: 300px;
+    }
+    display: flex;
+  }
+ 
+  .CardIcon {
+    color: black;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    .eye{
+        color: black;
+        &:hover{
+            color: rgb(234,31,36);
+            transition: 0.3s;
+        }
+    }
+  }
+}
+}
+.CardBox {
+}
+@media only screen and (max-width: 625px){
+  .CardinArea{
+
+
+    .CardArea {
+      width: 80%;
+      margin: auto;
+      .CardImg {
+        // width: 20%;
+        img {
+       width: 200px;
+        }
+        display: flex;
+      }
+     
+      .CardIcon {
+        color: black;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+    
+        gap: 10px;
+        .eye{
+            color: black;
+            &:hover{
+                color: rgb(234,31,36);
+                transition: 0.3s;
+            }
+        }
+      }
+    }
+    }
+    .CardBox {
+    }
+}

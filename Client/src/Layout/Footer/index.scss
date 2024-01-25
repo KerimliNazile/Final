@@ -1,0 +1,90 @@
+#Footer {
+  min-height: 50vh;
+  background-color: rgb(34, 34, 34);
+  .FooterArea {
+    .FooterBoxing {
+        color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .FooterOne {
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .TextFooter{
+            color: white;
+        }
+      }
+      .FooterTwo {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        gap: 60px;
+      }
+      .ImageFooter {
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        gap: 60px;
+        margin-top: 70px;
+        img {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+          width: 100px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 930px){
+    #Footer {
+        min-height: 50vh;
+        background-color: rgb(34, 34, 34);
+        .FooterArea {
+          .FooterBoxing {
+              color: white;
+            display: flex;
+           flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .FooterOne {
+                flex-direction: column;
+              gap: 20px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .TextFooter{
+                  color: white;
+              }
+            }
+            .FooterTwo {
+                flex-direction: column;
+              display: flex;
+              align-items: center;
+              justify-content:center ;
+              gap: 60px;
+            }
+            .ImageFooter {
+                flex-direction: column;
+              display: flex;
+              align-items: center;
+              justify-content:center ;
+              gap: 60px;
+              margin-top: 70px;
+              img {
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                width: 100px;
+              }
+            }
+          }
+        }
+      }
+}
